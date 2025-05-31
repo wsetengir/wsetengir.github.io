@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日快乐！</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="birthday-body">
+    <div class="birthday-container">
+        <h1 id="greeting">生日快乐！</h1>
+        <div class="cake-container">
+            <img src="../assets/img/cake.png" alt="生日蛋糕" class="cake-image">
+        </div>
+        <button id="play-music">奏响生日快乐歌</button>
+        <div class="message-container" id="message-container" style="display: none;">
+            <p id="birthday-message"></p>
+            <div class="extended-wishes">
+                <p>新的一岁，愿你有诗，有梦，有坦坦荡荡的远方。</p>
+                <p>愿时光予你慷慨，岁月赠你温柔。</p>
+                <p>每一岁都奔走在热爱里，每一步都通往繁花似锦。</p>
+	<p>生日快乐，愿你心之所向，素履以往。</p>
+                <p class="signature">——永远祝福你的师兄</p>
+            </div>
+        </div>
+    </div>
+    <audio id="birthday-song" src="../assets/happy-birthday.mp3" preload="auto" autoplay></audio>
+    <div class="balloons">
+        <div class="balloon balloon-1"></div>
+        <div class="balloon balloon-2"></div>
+        <div class="balloon balloon-3"></div>
+        <div class="balloon balloon-4"></div>
+        <div class="balloon balloon-5"></div>
+    </div>
+    <div class="confetti-container"></div>
+    <script src="../js/birthday.js"></script>
+</body>
+</html> 
