@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Set personalized greeting
     greeting.textContent = `  浩浩生日快乐!`;
-    birthdayMessage.textContent = `祝新的一岁`;
+    birthdayMessage.textContent = ``;
     
     // 设置署名
     if (signatureElement) {
